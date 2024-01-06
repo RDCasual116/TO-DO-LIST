@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="index.css" rel="stylesheet"/>
+    <title>To do list</title>
+<script src="index.js">
+</script>
+</head>
+<body>
+<div class="title"><h1>RD LIST</h1></div>
+<div class="main">
+<div class="ui">
+    <input type="text" id="entry" placeholder="Enter Item"></input><br/></div><div class="but">
+<button onclick="Rd()">add</button>
+<button onclick="Clear()">Clear</button></div>
+<div class="items">
+<h4>YOUR LIST</h4><ol id="container">
+</ol>
+</div></div>
+<script>
+if(localStorage.name){
+console.log("ok5");
+load();}
+</script>
+
+</body>
+</html>
