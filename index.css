@@ -1,11 +1,12 @@
 *{
 /*border:1px solid black;*/
 }
-body{
+html,body{
 background:linear-gradient(to bottom right,#15a1ff,#ffd5df,#ffd5df,#15a1ff);
+height:100%;
 }
 .main{
-height:600px;
+height:80%;
 width:80%;
 margin:auto auto;
 box-shadow:0px 3px 5px;
@@ -40,7 +41,7 @@ margin:10px;
 margin:0 auto 10px auto;
 border:3px solid grey;
 width:80%;
-height:450px;
+height:80%;
 border-radius:8px;
 box-shadow:1px 2px 5px;
 background-color:white;
